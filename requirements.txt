@@ -1,0 +1,10 @@
+transformers 
+einops 
+accelerate 
+langchain 
+bitsandbytes
+sentencepiece
+PyMuPDF 
+streamlit
+
+
