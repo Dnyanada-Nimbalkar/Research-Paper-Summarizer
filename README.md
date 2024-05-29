@@ -1,4 +1,4 @@
-**Research Paper Summarizer using Google Pegasus**
+**#Research Paper Summarizer using Google Pegasus**
 
 Overview
 This project aims to develop an automated summarization tool for research papers using Google's Pegasus model. The tool enables researchers to quickly grasp the key findings and insights from scientific literature, significantly enhancing the efficiency of literature review processes. It leverages the power of transformer-based models to generate high-quality abstractive summaries, providing a user-friendly interface for uploading research papers and accessing their summaries.
