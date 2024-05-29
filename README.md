@@ -1,5 +1,4 @@
-**#Research Paper Summarizer using Google Pegasus**
-
+Research Paper Summarizer using Google Pegasus
 Overview
 This project aims to develop an automated summarization tool for research papers using Google's Pegasus model. The tool enables researchers to quickly grasp the key findings and insights from scientific literature, significantly enhancing the efficiency of literature review processes. It leverages the power of transformer-based models to generate high-quality abstractive summaries, providing a user-friendly interface for uploading research papers and accessing their summaries.
 
@@ -8,18 +7,19 @@ Automated Summarization: Generate abstractive summaries of research papers using
 User-Friendly Interface: Upload research papers in PDF format and receive concise summaries.
 Performance Evaluation: Assess the quality of generated summaries using ROUGE metrics.
 Efficient Workflow: Save time in understanding lengthy research documents.
-
 Installation
 Prerequisites
 Python 3.7 or higher
 Pip (Python package installer)
 Git
-
 Clone the Repository
+bash
+Copy code
 git clone https://github.com/yourusername/research-paper-summarizer.git
 cd research-paper-summarizer
-
 Install Dependencies
+bash
+Copy code
 pip install -r requirements.txt
 Set Up Google Pegasus Model
 You need to download and set up the Google Pegasus model. Instructions for downloading the model can be found here.
@@ -27,8 +27,10 @@ You need to download and set up the Google Pegasus model. Instructions for downl
 Usage
 Running the Application
 To start the application, navigate to the project directory and run:
-streamlit run app.py
 
+bash
+Copy code
+streamlit run app.py
 This will launch the web application, where you can upload research papers and generate summaries.
 
 Generating Summaries
@@ -60,8 +62,3 @@ Acknowledgments
 Thanks to the developers of the Google Pegasus model.
 Thanks to the contributors and maintainers of the Hugging Face library.
 Special thanks to all the researchers and domain experts who provided valuable feedback during the evaluation phase.
-
-
-
-
-
